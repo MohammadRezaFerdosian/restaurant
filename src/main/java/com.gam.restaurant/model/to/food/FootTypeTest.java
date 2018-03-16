@@ -5,6 +5,6 @@ public class FootTypeTest {
     public static void main(String[] args) {
 
 
-        Food.Type appetizer =Food.Type.APPETIZER;
+        Food.MealCategory appetizer =Food.MealCategory.APPETIZER;
     }
 }
