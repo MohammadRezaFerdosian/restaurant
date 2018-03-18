@@ -3,7 +3,6 @@ package com.gam.restaurant.model.to.food;
 import javax.annotation.Generated;
 import javax.persistence.*;
 
-//fake
 @Entity
 @Table(name = "food")
 @SequenceGenerator(name ="seq_food",sequenceName = "seq_food",allocationSize = 1)
