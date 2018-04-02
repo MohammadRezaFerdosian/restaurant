@@ -4,6 +4,8 @@ import javax.annotation.Generated;
 import javax.persistence.*;
 
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name ="table_name")
 @Table(name = "food")
 @SequenceGenerator(name ="seq_food",sequenceName = "seq_food",allocationSize = 1)
 public class Food {

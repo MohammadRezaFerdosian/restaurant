@@ -11,6 +11,9 @@
     <title>hello servlet</title>
 </head>
 <body>
-<h1>hello servlet</h1>
+<h1>Restaurant</h1>
+<form action="menu.jsp">
+    <input type="submit" name="menu" title="menu"></form>
+</form>
 </body>
 </html>
